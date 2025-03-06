@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -22,11 +22,16 @@
             display: none;
             width: 100%;
             height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         #imagen {
             width: 100%;
+            max-width: 736px;
             height: auto;
             max-height: 90vh;
+            object-fit: cover;
         }
         #inicio {
             display: flex;
@@ -83,9 +88,9 @@
 </div>
 <script>
     let imagenes = [
-        'https://drive.google.com/uc?export=view&id=1G0m69vY0m-tfzdWWx3zbi0os7hbhKpJz',
-        'https://drive.google.com/uc?export=view&id=1w4K2XQUnutwYC_JZppnMEs8jW1l1SYBP',
-        'https://drive.google.com/uc?export=view&id=1cMzBxfxpDAWI1lCjhMyJXDIZMTEdxZKj'
+        'https://drive.google.com/uc?export=download&id=1G0m69vY0m-tfzdWWx3zbi0os7hbhKpJz',
+        'https://drive.google.com/uc?export=download&id=1w4K2XQUnutwYC_JZppnMEs8jW1l1SYBP',
+        'https://drive.google.com/uc?export=download&id=1cMzBxfxpDAWI1lCjhMyJXDIZMTEdxZKj'
     ];
     let actual = 0;
 
@@ -107,3 +112,4 @@
 </script>
 </body>
 </html>
+
